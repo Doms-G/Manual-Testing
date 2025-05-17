@@ -20,7 +20,7 @@ This repository showcases my manual testing work — from detailed test cases an
 - **Regression Testing** – Making sure fixes don’t break old stuff  
 - **Smoke/Sanity Testing** – Quick checks before diving deep  
 
-### 🐛 Bug Reporting – Writing defects developers can actually use  
+### 🐛 Bug Reporting  
 - **Clear Steps to Reproduce** – So devs don't guess what went wrong  
 - **Expected vs Actual Results** – For immediate context  
 - **Screenshots / Recordings** – Because visual evidence saves time  
