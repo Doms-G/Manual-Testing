@@ -1,6 +1,6 @@
 # 📄 Philist Test Plan
 
-📥 **[Download this Test Plan as PDF](./Test-Plan/Philist_Test_Plan.pdf)**
+📥 **[Download this Test Plan as PDF](Philist_Test_Plan.pdf)**
 
 ---
 
