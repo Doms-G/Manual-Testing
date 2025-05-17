@@ -1,16 +1,18 @@
 # 📄 Philist Test Plan
 
-📥 **[Download this Test Plan as PDF](./Philist_Test_Plan_by_Dominique_Gonzaga.pdf)**
+📥 **[Download this Test Plan as PDF](./Philist_Test_Plan.pdf)**
 
 ---
 
 ## Document Change History
 
-| Version | Date       | Contributor        | Description                            |
-|---------|------------|--------------------|----------------------------------------|
-| v1.0    | 02/05/2024 | Dominique Gonzaga  | Initial test plan created              |
-| v1.1    | 03/11/2024 | Dominique Gonzaga  | Added scope, out-of-scope, schedule    |
-| v1.2    | 04/22/2024 | Dominique Gonzaga  | Added terms and acronyms               |
+| **Version** | **Date**     | **Contributor**     | **Description**                                                                 |
+|-------------|--------------|---------------------|----------------------------------------------------------------------------------|
+| v1.0        | 01/15/2024   | Dominique Gonzaga   | Initial draft of the test plan created, including intro, objectives, and approach |
+| v1.1        | 01/22/2024   | Dominique Gonzaga   | Added test scope (in-scope/out-of-scope), project roles, and estimated schedule   |
+| v1.2        | 01/29/2024   | Dominique Gonzaga   | Included glossary of terms and acronyms; updated roles and assumptions            |
+| v1.3        | 02/05/2024   | Dominique Gonzaga   | Integrated revised QA timeline and detailed task breakdown based on updated plan  |
+| v1.4        | 02/12/2024   | Dominique Gonzaga   | Refined test deliverables, tools section, and clarified testing phases            |
 
 ---
 
@@ -73,29 +75,31 @@ Address security concerns and assess performance under expected loads to ensure 
 
 ### 2.1 Testing Stages
 
-- Functional Testing  
-- GUI Testing  
-- Usability Testing  
-- Integration Testing  
-- System Testing  
-- API Testing
+- Functional Testing
+- GUI Testing
+- Usability Testing
+- Regression Testing
+•	Smoke Testing
+•	Sanity Testing
 
 ### 2.2 Testing Types
 
-- Functional Testing  
-- Security Testing  
-- Performance Testing  
+- Functional Testing
 - Usability Testing
 
 ### 2.3 Tasks, Estimations, and Schedule
 
-| Task                   | Member          | Estimate        |
-|------------------------|------------------|-----------------|
-| Create Test Specification | Test Engineer | 170 man-hours   |
-| Perform Test Execution    | Test Engineer | 80 man-hours    |
-| Test Reporting            | Test Engineer | 10 man-hours    |
-| Test Delivery             | Test Engineer | 20 man-hours    |
-| **Total**                 |                | **280 man-hours** |
+| **Task**                         | **Member**        | **Estimated Hours** | **Timeline**               |
+|----------------------------------|-------------------|----------------------|----------------------------|
+| Test Planning & Strategy         | Test Engineer     | 40 hours             | Jan 22 – Feb 9             |
+| Test Case Design & Documentation | Test Engineer     | 50 hours             | Feb 12 – Feb 23            |
+| Test Execution – Cycle 1         | Test Engineer     | 60 hours             | Feb 26 – Mar 22            |
+| Bug Logging & Collaboration      | Test Engineer     | 20 hours             | Mar 25 – Apr 5             |
+| Test Execution – Cycle 2         | Test Engineer     | 50 hours             | Apr 8 – May 3              |
+| Final Retesting & QA Sign-off    | Test Engineer     | 30 hours             | May 6 – May 17             |
+| Test Report & QA Closure         | Test Engineer     | 20 hours             | May 20 – May 31            |
+| Buffer / Presentation Week       | Test Engineer     | 10 hours             | Jun 3 – Jun 7              |
+| **Total**                        |                   | **280 hours**        |                            |
 
 ### 2.4 Bug Life Cycle
 
@@ -174,12 +178,17 @@ _New → Assigned → In Progress → Retest → Closed_
 
 ## 7. Schedule & Milestones
 
-| Phase                  | Dates                |
-|------------------------|----------------------|
-| Test Planning          | Jan 26 – Feb 16, 2024 |
-| Test Execution         | Feb 8 – May 17, 2024  |
-| Defect Resolution      | Ongoing              |
-| Final Test Report      | May 17, 2024         |
+| **Phase**                    | **Dates**                 | **Notes**                                                                 |
+|-----------------------------|---------------------------|---------------------------------------------------------------------------|
+| Test Planning               | Jan 22 – Feb 9, 2024      | Review requirements, define scope, create test strategy and test plan     |
+| Test Case Design & Prep     | Feb 12 – Feb 23, 2024     | Write and organize test cases, prep test data, verify environments        |
+| Test Execution – Cycle 1    | Feb 26 – Mar 22, 2024     | Functional testing, UI testing, logging high-priority bugs                |
+| Defect Resolution – Cycle 1 | Mar 25 – Apr 5, 2024      | Work with devs, retest fixed issues                                       |
+| Test Execution – Cycle 2    | Apr 8 – May 3, 2024       | Regression testing, exploratory testing, edge cases                       |
+| Final Fixes & Retesting     | May 6 – May 17, 2024      | Final pass, verifying fixes, polish before sign-off                       |
+| Test Closure & Reporting    | May 20 – May 31, 2024     | Write final QA report, summarize defect metrics, lessons learned          |
+| Buffer / Presentation Week  | Jun 3 – Jun 7, 2024       | Optional: wrap-up meeting, handover, GitHub polish, demo prep             |
+
 
 ---
 
