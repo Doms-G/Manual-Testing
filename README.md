@@ -45,4 +45,4 @@ This repository showcases my manual testing work — from detailed test cases an
 
 ---
 
-_“Code may run, but testing makes sure it runs right.”_
+_“One man’s crappy software is another man’s full time job.”_ – Jessica Gaston
